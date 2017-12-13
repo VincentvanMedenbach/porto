@@ -1,0 +1,183 @@
+@import url("http://fonts.googleapis.com/css?family=Roboto:400,300");
+
+* {
+    font-family: Roboto;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+/*Header*/
+
+header {
+    background-color: #3e7a8c;
+}
+
+#MENU ul {
+    display: flex;
+    flex-flow: nowrap;
+}
+
+#MENU li {
+    font-size: 30px;
+    padding: 2px;
+}
+
+.menuknop {
+    border: none;
+    display: block;
+    vertical-align: middle;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    text-decoration: none;
+    color: inherit;
+    style: none;
+}
+
+.current {
+    display: block;
+    vertical-align: middle;
+    background-color: #74AFAD;;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+    style: none;
+
+}
+
+p.MenuKnoop {
+    display: flex;
+    padding: 5px;
+    white-space: nowrap;
+}
+
+/*End Header*/
+.imageBoi {
+    width: 500px;
+    margin: 20px;
+}
+
+main {
+    display: flex;
+    heigt: auto;
+}
+
+#RIGHTCONTENT {
+    display: block;
+    width: 50%;
+    height: inherit;
+
+}
+
+#LEFTCONTENT {
+    display: block;
+    width: 50%;
+    height: inherit;
+
+}
+
+/*article stuff*/
+article {
+    display: block;
+    Height: 100%;
+    border: #003b4f;
+    border-style: solid;
+    width: 99%;
+
+}
+
+.content {
+    display: flex;
+    padding: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+h1 {
+    padding: 10px;
+    font-size: 30px;
+    background-color: darkslategrey;
+    text-align: center;
+}
+
+h2 {
+    padding-top: 20px;
+}
+
+h3 {
+    padding: 10px;
+    background-color: darkslategrey;
+
+}
+
+#MAP {
+
+    width: 750px;
+    display: inline;
+    border: solid black 3px;
+    float: right;
+    margin-bottom: 80px;
+}
+
+p {
+    display: inline;
+}
+
+.ImageRotate {
+    width: 100%;
+}
+
+#JOBSPAGE {
+    display: flex;
+    heigt: auto;
+    text-align: center;
+
+}
+
+#LEFTBUTTON {
+    font-size: 170px;
+    left: 650px;
+    top: 500px;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    outline: none !important;
+}
+
+#RIGHTBUTTON {
+    font-size: 170px;
+    right: 10px;
+    top: 500px;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    outline: none !important;
+}
+
+/*Footer*/
+Footer {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: grey;
+}
+
+Footer p {
+    position: absolute;
+    margin-top: 40px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: grey;
+}
+
+.Nieuws {
+    width: 580px;
+}
